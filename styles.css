@@ -1,0 +1,620 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+@font-face {
+        font-family: 'latha';
+        src: url('G:/Users/Atef/Desktop/Website/Fonts/latha.ttf');
+        format('truetype');
+    }
+@font-face { max-width: 100%;
+            font-family: 'Caviar';
+            src: url('./Fonts/CaviarDreams.ttf');
+            format('truetype');
+        }
+@font-face {
+                    font-family: 'Aubrey';
+                    src: url('./Fonts/Aubrey.ttf');
+                    format('truetype');
+                }
+@font-face {
+                    font-family: 'Coolvetica';
+                    src: url('./Fonts/Coolvetica.ttf');
+                    format('truetype');
+                }
+@@font-face {
+  font-family: In
+}
+
+  html {
+      scroll-behavior: smooth;
+    }
+body {
+  background-color: #010101;
+    overflow-x: hidden;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+}
+.Navigation {
+  z-index: 100;
+  width: 100%;
+  background-color: #C1098B;
+  display: inline-block;
+  height: 65px;
+  position: fixed;
+  top: 0;
+
+}
+.Nav {
+  left: 0.1PX;
+  width: 50%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.945);
+  display:inline-block;
+
+}
+.Logo {
+  height: 100%;
+  margin-left: 5.5%;
+  margin-top: 0.15%;
+}
+.NavR {
+  width: 50%;
+  height: 60PX;#
+  word-spacing: 100px;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.945);
+  right: 0.1PX;
+  display:inline-block;
+
+}
+li {
+  position: relative;
+  display: inline;
+  margin-right: 50px;
+  text-align: center;
+}
+.Home {
+  border-bottom width: 1px;
+  font-weight: bold;
+}
+
+.Home:hover {
+  animation-name: Red1;
+  animation-duration: 0.5s;
+  color: #006A4D;
+}
+.Images {
+  position: static;
+  width: 100%;
+}
+.ImagesText{
+  background-color: transparent;
+  position: absolute;
+  width: 75%;
+  height: 15%;
+  left: 12.5%;
+  top: 46.5%;
+  border-radius: 50PX;
+}
+.Content {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  background-color: #F0F2F3;
+}
+.Blu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+
+}
+.LinkAbout {
+  font-weight: bold;
+}
+.LinkAbout:hover {
+  animation-name: MorphG;
+  animation-duration: 0.5s;
+  color: #006A4D;
+}
+.LinkServices {
+  font-weight: bold;
+}
+.LinkServices:hover {
+  animation-name: MorphG;
+  animation-duration: 0.5s;
+  color: #006A4D;
+}
+.LinkPortfolio {
+
+  font-weight: bold;
+}
+.About:hover {
+  animation-name: MorphG;
+  animation-duration: 0.5s;
+  color: #006A4D;
+}
+.LinkContact {
+font-weight: bold;
+}
+.LinkContact:hover {
+  animation-name: Red1;
+  animation-duration: 0.5s;
+  color: #006A4D;
+}
+.Navg {
+  font-family: Latha;
+  color: #C1098B;
+  float: right;
+  margin-top: 20px;
+  font-size: 15px;
+
+  animation-direction: alternate;
+}
+@keyframes Red1 {
+  from {color:#AF1B33}
+  to {color:#F4253F}
+}
+@keyframes Red2 {
+  from {background-color:#AF1B33}
+  to {background-color:#F4253F}
+}
+@keyframes Green1 {
+  from {color:#025139}
+  to {color:#006A4D}
+}
+@keyframes Pink1 {
+  from {color:#93096a}
+  to {color:#C1098B}
+}
+@keyframes Pink2 {
+  from {background-color:#93096a}
+  to {background-color:#C1098B}
+}
+@keyframes Green2 {
+  from {background-color:#025139}
+  to {background-color:#006A4D}
+}
+@keyframes BTW {
+  from {background-color:white}
+  to {background-color:black}
+}
+@keyframes PTP {
+  from {background-color: transparent}
+  to {background-color: #C1098B}
+}
+@keyframes WTB {
+  from {background-color:transparent}
+  to {background-color:White}
+}
+@keyframes Morph {
+  from {color:#93096a}
+  to {color:#c1098b}
+}
+
+li {
+  width: 25%;
+  text-decoration: none;
+  color: #025139;
+}
+a {
+  text-decoration: none;
+  color:#93096a;
+}
+a:hover {
+  animation-name: Pink1;
+  animation-duration: 0.5s;
+  color: #C1098B;
+}
+.hr1 {
+  height: .25rem;
+  width: 8.75%;
+  background: #C1098B;
+  border: none;
+  transition: .3s ease-in-out;
+  margin-left: 6.4%;
+}
+.LinkAbout:hover ~ hr {
+  margin-left: 20.35%;
+  width: 16%;
+}
+.LinkServices:hover ~ hr {
+  margin-left: 40.5%;
+  width: 15%;
+}
+.LinkPortfolio:hover ~ hr {
+  margin-left: 59.25%;
+  width: 17%;
+}
+.LinkContact:hover ~ hr {
+  margin-left: 80.35%;
+  width: 14.5%;
+}
+.MediaText {
+  position: absolute;
+  font-family: Latha;
+  text-align: center;
+  color: #93096a;
+  letter-spacing: 0.5em;
+  font-size: 4.15vw;
+  width: 100%;
+}
+.MediaText:hover {
+  animation-name: Morph;
+  animation-duration: 0.5s;
+  color: #c1098b;
+
+}
+.Media2 {
+  position: absolute;
+  left: 48.5%;
+  margin-left: -50px;
+  margin-top: 27%;
+  font-family: Latha;
+  color: #006A4D;
+  width: 100%;
+}
+.hr2 {
+  height: .25rem;
+  width: 0.2%;
+  background: #c1098b;
+  border: none;
+  transition: .3s ease-in-out;
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  border: 5px solid #c1098b;
+  border-radius: 20px;
+  animation:Longy 2s;
+}
+.MediaText:hover ~ hr {
+  left: 8.5%;
+  width: 80%;
+  border-radius: 0px;
+}
+.AboutText {
+  font-family: Latha;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5%;
+  color: BLACK;
+  font-weight: bold;
+
+}
+.AboutQuote {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 2%;
+  color: BLACK;
+  font-family: Coolvetica;
+  letter-spacing: 1.5px;
+  text-decoration: underline;
+}
+.AboutQuote2 {
+  font-size: 21px;
+  text-align: center;
+  color: BLACK;
+  font-family: Coolvetica;
+}
+.Profile {
+  position: static;
+  width: 65%;
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid #006A4D;
+}
+.ProfileWoman {
+  position: static;
+  width: 65%;
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ProfileText {
+  width: 65%;
+  text-align: center;
+  padding-top: 2%;
+  color: BLACK;
+  font-family: Coolvetica;
+  font-size: 24px;
+  margin-left: 17%;
+}
+.HR3 {
+
+  height: 27px;
+  width: 25px;
+  background: BLACK;
+  margin-left: 50%;
+  margin-top: 0.25%;
+  margin-bottom: 2.5%;
+}
+.ContentLeft {
+  width: 50%;
+  height: 75vh;
+  display: inline-block;
+}
+.ContentRight {
+  position: absolute;
+  height: 75vh;
+  display: inline-block;
+}
+.Learn {
+  width: 20%;
+  width: 20%;
+  background-color: blue;
+}
+.LongBio {
+  font-family: Coolvetica;
+  font-size: 35px;
+  text-align: center;
+}
+.Reservation {
+  display: inline-block;
+   width: 17%;
+   height: 5.5%;
+   position: fixed;
+   bottom: 5.5%;
+   right: 15px;
+   background-color: transparent;
+   text-align: center;
+   text-decoration: none;
+   line-height: 1.2;
+   z-index: 5;
+   left: 5%;
+border:2px solid #C1098B;
+  cursor: pointer;
+}
+.ReservationText {
+  padding-top: 4%;
+  font-family: Latha;
+  font-weight:  BOLD;
+  color: #C1098B;
+  font-size: 1.05vw;
+  height: 101%;
+}
+.Reservation:hover {
+  background-color: #C1098B;
+  border: 2px solid #C1098B;
+  animation-name: PTP;
+  animation-duration: 0.3s;
+}
+.ReservationText:hover {
+  color: black;
+}
+.Modalbox {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.ModalContent {
+  background-color: white;
+  margin: 8% auto;
+  border: 3px solid black;
+  width: 27%;
+  height: 65%;
+}
+.Modalblack {
+  background-color: black;
+  border: 2px solid black;
+  width: 100%;
+  height: 6vh;
+  margin-left: -0.5%;
+  margin-top: -0.5%;
+}
+.ModalContent2 {
+  background-color: white;
+  width: 100%;
+  height: 65%;
+}
+.Close {
+  width: 9%;
+  height: 5%;
+  color: white;
+  background-color: #AF1B33;
+  float: left;
+  text-decoration: none;
+  cursor: pointer;
+  left: 40%;
+  border: 1px solid #F4253F;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 5.35%;
+  position: fixed;
+
+}
+.CC {
+  position: sticky;
+  z-index: 100;
+}
+.Close:hover {
+  animation: Red2;
+  animation-duration: 0.5s;
+  background-color: #F4253F;
+}
+.Confirm {
+  width: 9%;
+  height: 5%;
+  color: white;
+  background-color: #025139;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #006A4D;
+  border-radius: 30px 30px 30px 30px;
+  position: fixed;
+  right: 40%;
+  margin-top: 5.35%;
+}
+.Confirm:hover {
+  animation: Green2;
+  animation-duration: 0.5s;
+  background-color: #006A4D;
+}
+.ModalHead {
+  width: 100%;
+  height: 6vh;
+  background-color: black;
+  text-align: center;
+  BORDER: 1PX 1PX 1PX 1PX SOLID BLACK;
+
+}
+.ReserveTitle {
+  padding-top: 10px;
+  font-family: latha;
+  font-size: 20px;
+  color: white;
+}
+.InpFName {
+  width: 75%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  margin-top: 10%;
+}
+.InpSurname {
+  width: 75%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.InpHMany {
+  width: 75%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.InpDate {
+  width: 35%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 3.8%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.InpMobile {
+  width: 75%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.InpTime {
+  width: 35%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.InpEmail {
+  width: 75%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.summary {
+  width: 75%;
+  border: none;
+  border-bottom: 2px solid black;
+  margin-top: 1% auto;
+  margin-left: 12%;
+  font-size: 20px;
+  color: black;
+  margin-top: 6%;
+}
+.EmpathyLine {
+  height: 10px;
+  width: 85%;
+  background-color: #C1098B;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
+.DownArrow {
+  display: inline-block;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 95vh;
+  border-style: solid;
+	border-width: 0.10em 0.10em 0 0;
+	content: '';
+	height: 0.45em;
+  width: 0.45em;
+	transform: rotate(135deg);
+  transform: scale(2.5) rotate(135deg);
+	vertical-align: top;
+  animation:PinkAlt 2s infinite;
+
+  }
+
+  @keyframes PinkAlt {
+          0% {border-color:transparent;}
+          50% {border-color: #c1098b;}
+          100% {border-color:transparent;}
+  }
+@keyframes Longy {
+  0% {width: 0.2% }
+  0% {left: 0%}
+  0% {border-radius: 20px;}
+  50% {width: 80%;}
+  50% {left: 8.5%;}
+  50% {border-radius: 20px;}
+  100% {width: 0.2%}
+
+}
+.Trailer {
+  top: 10%;
+  width: 80%;
+  height: 37%;
+  align-content: center;
+  margin: auto;
+  background-color: yellow;
+}
+.Trailer2 {
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  margin: auto;
+  background-color: yellow;
+}
